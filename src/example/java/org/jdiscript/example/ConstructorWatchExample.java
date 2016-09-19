@@ -17,7 +17,7 @@ import com.sun.jdi.ReferenceType;
 
 class ConstructorWatchExample {   
         
-    String OPTIONS = "-cp ./target/classes/";
+    String OPTIONS = "-cp ./build/classes/example/";
     String MAIN = "org.jdiscript.example.HelloWorld";
     
     JDIScript j = new JDIScript(new VMLauncher(OPTIONS, MAIN).start());
